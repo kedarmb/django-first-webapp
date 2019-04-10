@@ -1,5 +1,5 @@
 from django.db import models
-from testapp.models import Employee
+# from testapp.models import Employee
 
 # Create your models here.
 
