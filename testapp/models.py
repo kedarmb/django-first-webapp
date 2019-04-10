@@ -9,4 +9,4 @@ class Employee(models.Model):
     emp_address = models.CharField(max_length=250)
 
     class Meta:
-        db_table = 'employee'
+        db_table = 'employee_table'
