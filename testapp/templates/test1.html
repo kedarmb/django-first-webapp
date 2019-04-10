@@ -1,0 +1,16 @@
+{% extends 'layout.html' %}
+    {% block content %}
+    {% load static %}
+        <link rel="stylesheet" href="{% static 'css/new.css' %}" >
+        <script type="text/javascript" src={% static 'js/new.js' %}></script>
+        <h3>This is test One</h3>
+
+        <h4 class="ext1">Hello</h4>
+        <h4 class="ext2">How are you!</h4>
+
+        <button class="btn btn-warning" onclick="func1()">Button1</button>
+        <button class="btn btn-success" onclick="func2()">Button2</button><br><br>
+
+        <p><img src="{%  static 'images/django-architecture.jpg' %}" alt="Django Image" height="300" width="500"></p>
+
+    {% endblock %}
