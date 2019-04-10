@@ -1,6 +1,6 @@
 from django.shortcuts import render,redirect
 from crud.forms import EmployeeForm
-from crud.models import Employee
+from testapp.models import Employee
 from django.contrib.auth.decorators import login_required
 
 # Create your views here.
